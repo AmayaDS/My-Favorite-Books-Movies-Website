@@ -25,10 +25,10 @@ const favoriteSeries = [
         description: 'Nine noble families wage war against each other in order to gain control over the mythical land of Westeros. Meanwhile, a force is rising after millenniums and threatens the existence of living men.',
     },
     {
-        title: 'TV Series 2',
-        genre: 'Sci-Fi',
-        poster: 'images/series2.jpg',
-        description: 'This is a description of TV Series 2.',
+        title: 'The Big Bang Theory',
+        genre: 'Sci-Fi/Drama/Romance',
+        poster: 'image3.jpg',
+        description: 'Mensa-fied best friends and roommates Leonard and Sheldon, physicists who work at the California Institute of Technology, may be able to tell everybody more than they want to know about quantum physics, but getting through most basic social situations, especially ones involving women, totally baffles them.',
     },
     // Add more TV series objects as needed
 ];
