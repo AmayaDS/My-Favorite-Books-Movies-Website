@@ -1,0 +1,131 @@
+/*body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #8b0000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.movie-section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movie-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.movie-grid,
+.series-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.movie-item,
+.series-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+}
+
+.movie-item:hover,
+.series-item:hover {
+    transform: scale(1.05);
+}
+
+/* Add more styling as needed */
+
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8b0000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: row; /* Arrange sections horizontally */
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.movie-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movie-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.movie-grid,
+.series-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.movie-item,
+.series-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+}
+
+.movie-item:hover,
+.series-item:hover {
+    transform: scale(1.05);
+}
+
+
+/* Make the images inside movie and series items responsive */
+.movie-item img,
+.series-item img {
+    max-width: 100%;
+    max-height: 200px;
+    margin: 0 auto;
+}
+
+/* Scale the image inside the grid items on hover */
+.movie-item:hover img,
+.series-item:hover img {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+
+
+/* Add more styling as needed */
+
