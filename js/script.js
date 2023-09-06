@@ -14,7 +14,7 @@ moviesBtn.addEventListener('click', () => {
 
 
 
-// Add your image URLs here
+
 const imageUrls = [
     'image1.jpg',
     'image3.jpg',
